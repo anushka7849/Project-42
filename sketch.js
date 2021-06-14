@@ -35,11 +35,11 @@ if(!hasDocked){
   }
   if(keyIsDown(LEFT_ARROW)){
     spacecraft.addImage(spacecraft3Image);
-    spacecraft.x=spacecraft.x-3;
+    spacecraft.x=spacecraft.x-5;
   }
   if(keyIsDown(RIGHT_ARROW)){
     spacecraft.addImage(spacecraft4Image);
-    spacecraft.x=spacecraft.x+3;
+    spacecraft.x=spacecraft.x+5;
   }
   if(keyIsDown(DOWN_ARROW)){
     spacecraft.addImage(spacecraft2Image);
